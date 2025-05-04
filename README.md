@@ -1,4 +1,5 @@
 # Uniswap Trader MCP
+[![smithery badge](https://smithery.ai/badge/@kukapay/uniswap-trader-mcp)](https://smithery.ai/server/@kukapay/uniswap-trader-mcp)
 
 An MCP server for AI agents to automate token swaps on Uniswap DEX across multiple blockchains.
 
@@ -16,6 +17,15 @@ An MCP server for AI agents to automate token swaps on Uniswap DEX across multip
 
 ## Installation
 
+### Installing via Smithery
+
+To install Uniswap Trader MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/uniswap-trader-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/uniswap-trader-mcp --client claude
+```
+
+### Manual Installation
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/kukapay/uniswap-trader-mcp.git
@@ -146,5 +156,3 @@ Output:
 
 ## License
 MIT License. See [LICENSE](LICENSE) for details.
-
-
